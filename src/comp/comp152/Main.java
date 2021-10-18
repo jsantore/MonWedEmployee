@@ -15,7 +15,7 @@ public class Main {
 	    for(var currentEmployee: allEmployees ){
 	        System.out.println("Now paying an employee of type "+ currentEmployee.getClass().getName()+
                     " who is getting payed " + currentEmployee.calculateBiWeeklyPay());
-	        
+
         }
     }
 }
